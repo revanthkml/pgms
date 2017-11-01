@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class EvenOdd {
+public class checknum {
 
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in);
+        Scanner c = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int num = reader.nextInt();
+        int s = c.nextInt();
 
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
+        if(s % 2 == 0)
+            System.out.println(s + " is even");
         else
-            System.out.println(num + " is odd");
+            System.out.println(s + " is odd");
     }
 }
